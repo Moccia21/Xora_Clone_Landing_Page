@@ -1,6 +1,5 @@
 import { Element, Link as LinkScroll } from "react-scroll";
 import Button from "../Components/Button";
-import HeroImage from "@/public/images/hero.png";
 
 const Hero = () => {
     return (
@@ -25,7 +24,7 @@ const Hero = () => {
                         </LinkScroll>
                     </div>
                     <div className="absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res">
-                        <img src={HeroImage} className="size-1230 max-lg:h-auto" alt="hero" />
+                        <img src="src/public/images/hero.png" className="size-1230 max-lg:h-auto" alt="hero" />
                     </div>
                 </div>
             </Element>
